@@ -1,3 +1,6 @@
+h1{
+  text-align: center;
+}
 input {
   border: solid 1px black;
 }
@@ -28,6 +31,9 @@ input {
     color: #fff;
     background-color: #5cb85c;
     border-color: #4cae4c;
+   
+    display: flex;
+        
 }
 
 .btn-delete {
@@ -38,4 +44,23 @@ input {
 
 .quantity {
   margin: 0 5px;
+}
+.all{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding-top: 30px;
+}
+.secondline{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding-top: 50px; 
+
+}
+.calculatetotal{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 60px;
 }
