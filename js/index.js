@@ -51,7 +51,8 @@ function createNewItemRow(itemName, itemUnitPrice){
 }
 
 function createNewItem(){
-
+let newProduct = documents.getElementsByClassName('newproduct')
+let 
 }
 
 window.onload = function(){
